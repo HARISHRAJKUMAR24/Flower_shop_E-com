@@ -1,220 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bloomify - Flower E-Commerce</title>
-  <style>
-    /* Global Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-      background: linear-gradient(120deg, #fff0f5, #fef6ff);
-      color: #333;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    /* Glassy Navbar */
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      backdrop-filter: blur(10px);
-      background: rgba(255, 255, 255, 0.25);
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
-      z-index: 1000;
-    }
-
-    nav .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #e75480;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-    }
-
-    nav ul li a {
-      font-weight: 500;
-      transition: color 0.3s;
-    }
-
-    nav ul li a:hover {
-      color: #e75480;
-    }
-
-    /* Hero Section */
-    .hero {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      background: linear-gradient(90deg, #ff7eb3, #ff758c);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero p {
-      margin-top: 1rem;
-      font-size: 1.2rem;
-      max-width: 600px;
-      color: #555;
-    }
-
-    .hero button {
-      margin-top: 2rem;
-      padding: 0.8rem 2rem;
-      border: none;
-      border-radius: 25px;
-      background: linear-gradient(90deg, #e75480, #ff758c);
-      color: #fff;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: transform 0.3s;
-    }
-
-    .hero button:hover {
-      transform: scale(1.05);
-    }
-
-    /* Products */
-    .products {
-      padding: 4rem 2rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-
-    .product-card {
-      background: rgba(255, 255, 255, 0.4);
-      border-radius: 20px;
-      backdrop-filter: blur(12px);
-      padding: 1rem;
-      text-align: center;
-      transition: transform 0.3s;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-    }
-
-    .product-card img {
-      width: 100%;
-      border-radius: 15px;
-    }
-
-    .product-card h3 {
-      margin: 1rem 0 0.5rem;
-      font-size: 1.2rem;
-      color: #e75480;
-    }
-
-    .product-card p {
-      color: #444;
-      font-size: 0.9rem;
-    }
-
-    .product-card button {
-      margin-top: 1rem;
-      padding: 0.6rem 1.5rem;
-      border: none;
-      border-radius: 20px;
-      background: linear-gradient(90deg, #ff758c, #ff7eb3);
-      color: #fff;
-      cursor: pointer;
-      transition: transform 0.3s;
-    }
-
-    .product-card button:hover {
-      transform: translateY(-3px);
-    }
-
-    .product-card:hover {
-      transform: translateY(-10px);
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      nav ul {
-        display: none;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Categories</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .swiper-button-next, 
+        .swiper-button-prev {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            color: #4b5563;
+            top: auto;
+            margin-top: 0;
+        }
+        .swiper-button-next:after, 
+        .swiper-button-prev:after {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .swiper-button-next:hover, 
+        .swiper-button-prev:hover {
+            background-color: #16a34a;
+            color: white;
+            border-color: #16a34a;
+        }
+    </style>
 </head>
-<body>
-  <!-- Navbar -->
-  <nav>
-    <div class="logo">🌸 Bloomify</div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#products">Shop</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<body class="bg-gray-50">
+    <section class="mt-8">
+        <div class="container mx-auto px-4">
+            <!-- Header with title and navigation buttons -->
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-2xl font-bold text-gray-800">Featured Categories</h2>
+                <div class="flex space-x-2">
+                    <div class="swiper-button-prev !static"></div>
+                    <div class="swiper-button-next !static"></div>
+                </div>
+            </div>
+            
+            <!-- Swiper container -->
+            <div class="swiper-container swiper" id="swiper-1" data-pagination-type="" data-speed="400"
+                data-space-between="20" data-pagination="false" data-navigation="true" data-autoplay="true"
+                data-autoplay-delay="3000" data-effect="slide"
+                data-breakpoints='{"480": {"slidesPerView": 2}, "768": {"slidesPerView": 3}, "1024": {"slidesPerView": 6}}'>
+                <div class="swiper-wrapper py-4">
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Dairy" alt="Dairy, Bread & Eggs" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Dairy, Bread & Eggs</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Snacks" alt="Snack & Munchies" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Snack & Munchies</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Bakery" alt="Bakery & Biscuits" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Bakery & Biscuits</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Instant" alt="Instant Food" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Instant Food</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Drinks" alt="Tea, Coffee & Drinks" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Tea, Coffee & Drinks</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Atta" alt="Atta, Rice & Dal" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Atta, Rice & Dal</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Baby" alt="Baby Care" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Baby Care</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#!">
+                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
+                                <div class="py-8 text-center">
+                                    <img src="https://via.placeholder.com/100x100?text=Meat" alt="Chicken, Meat & Fish" class="mb-3 m-auto w-20 h-20 object-contain" />
+                                    <div class="text-base font-medium">Chicken, Meat & Fish</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Fresh Flowers, Fresh Feelings</h1>
-    <p>Discover a world of beauty with our curated collection of seasonal flowers delivered fresh to your doorstep.</p>
-    <button>Shop Now</button>
-  </section>
-
-  <!-- Products Section -->
-  <section class="products" id="products">
-    <div class="product-card">
-      <img src="https://picsum.photos/400/300?random=1" alt="Rose Bouquet">
-      <h3>Rose Bouquet</h3>
-      <p>Elegant red roses for every occasion.</p>
-      <button>Add to Cart</button>
-    </div>
-
-    <div class="product-card">
-      <img src="https://picsum.photos/400/300?random=2" alt="Tulip Basket">
-      <h3>Tulip Basket</h3>
-      <p>Colorful tulips to brighten your day.</p>
-      <button>Add to Cart</button>
-    </div>
-
-    <div class="product-card">
-      <img src="https://picsum.photos/400/300?random=3" alt="Orchid Vase">
-      <h3>Orchid Vase</h3>
-      <p>Exotic orchids arranged in style.</p>
-      <button>Add to Cart</button>
-    </div>
-  </section>
-
-  <script>
-    // Example simple JS - scroll effect for navbar
-    window.addEventListener('scroll', function() {
-      const nav = document.querySelector('nav');
-      if (window.scrollY > 50) {
-        nav.style.background = 'rgba(255,255,255,0.7)';
-      } else {
-        nav.style.background = 'rgba(255,255,255,0.25)';
-      }
-    });
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const swiper = new Swiper('#swiper-1', {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    480: {
+                        slidesPerView: 2
+                    },
+                    768: {
+                        slidesPerView: 3
+                    },
+                    1024: {
+                        slidesPerView: 6
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>

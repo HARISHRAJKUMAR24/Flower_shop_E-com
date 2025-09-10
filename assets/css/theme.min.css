@@ -3841,3 +3841,12 @@ h6>a:hover {
   position: relative;
   z-index: 1; /* ensures text/content is above overlay */
 }
+/* Make pagination dots green */
+.swiper-pagination-bullet {
+    background-color: #22c55e; /* Tailwind green-500 */
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #16a34a; /* Tailwind green-600 */
+}
