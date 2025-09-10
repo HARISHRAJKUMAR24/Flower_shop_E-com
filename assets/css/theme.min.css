@@ -134,6 +134,9 @@ html {
     tab-size: 4;
     -webkit-tap-highlight-color: transparent
 }
+html, body {
+  overflow-x: hidden;
+}
 
 body {
     line-height: inherit;
@@ -402,9 +405,10 @@ select:focus,
 textarea:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
-    --tw-ring-inset: var(--tw-empty, /*!*/
-    /*!*/
-    );
+    --tw-ring-inset: var(--tw-empty,
+            /*!*/
+            /*!*/
+        );
     --tw-ring-offset-width: 0px;
     --tw-ring-offset-color: #fff;
     --tw-ring-color: #2563eb;
@@ -509,9 +513,10 @@ select {
 [type=radio]:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
-    --tw-ring-inset: var(--tw-empty, /*!*/
-    /*!*/
-    );
+    --tw-ring-inset: var(--tw-empty,
+            /*!*/
+            /*!*/
+        );
     --tw-ring-offset-width: 2px;
     --tw-ring-offset-color: #fff;
     --tw-ring-color: #2563eb;
@@ -751,15 +756,15 @@ input::placeholder {
     position: relative
 }
 
-.\ !bottom-14 {
+.\  !bottom-14 {
     bottom: 3.5rem !important
 }
 
-.\ !left-auto {
+.\  !left-auto {
     left: auto !important
 }
 
-.\ !right-0 {
+.\  !right-0 {
     right: 0 !important
 }
 
@@ -1302,7 +1307,7 @@ input::placeholder {
     --tw-bg-opacity: 0.25
 }
 
-.\ !p-0 {
+.\  !p-0 {
     padding: 0 !important
 }
 
@@ -1808,53 +1813,69 @@ small {
     .md\:mt-0 {
         margin-top: 0
     }
+
     .md\:w-1\/2 {
         width: 50%
     }
+
     .md\:w-1\/3 {
         width: 33.333333%
     }
+
     .md\:w-1\/4 {
         width: 25%
     }
+
     .md\:w-1\/5 {
         width: 20%
     }
+
     .md\:w-2\/5 {
         width: 40%
     }
+
     .md\:w-3\/5 {
         width: 60%
     }
+
     .md\:w-auto {
         width: auto
     }
+
     .md\:w-full {
         width: 100%
     }
+
     .md\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr))
     }
+
     .md\:flex-row {
         flex-direction: row
     }
+
     .md\:flex-nowrap {
         flex-wrap: nowrap
     }
+
     .md\:justify-end {
         justify-content: flex-end
     }
+
     .md\:gap-4 {
         gap: 1rem
     }
+
     .md\:gap-6 {
         gap: 1.5rem
     }
+
     .md\:space-x-2>:not([hidden])~:not([hidden]) {
         --tw-space-x-reverse: 0;
         margin-left: calc(.5rem*(1 - var(--tw-space-x-reverse)));
         margin-right: calc(.5rem*var(--tw-space-x-reverse))
     }
+
     .md\:text-left {
         text-align: left
     }
@@ -1864,86 +1885,112 @@ small {
     .lg\:visible {
         visibility: visible
     }
+
     .lg\:my-14 {
         margin-bottom: 3.5rem;
         margin-top: 3.5rem
     }
+
     .lg\:block {
         display: block
     }
+
     .lg\:flex {
         display: flex
     }
+
     .lg\:hidden {
         display: none
     }
+
     .lg\:w-1\/3 {
         width: 33.333333%
     }
+
     .lg\:w-1\/4 {
         width: 25%
     }
+
     .lg\:w-1\/5 {
         width: 20%
     }
+
     .lg\:w-1\/6 {
         width: 16.666667%
     }
+
     .lg\:w-2\/3 {
         width: 66.666667%
     }
+
     .lg\:w-2\/5 {
         width: 40%
     }
+
     .lg\:w-3\/5 {
         width: 60%
     }
+
     .lg\:w-auto {
         width: auto
     }
+
     .lg\:min-w-\[1140px\] {
         min-width: 1140px
     }
+
     .lg\:flex-wrap {
         flex-wrap: wrap
     }
+
     .lg\:items-center {
         align-items: center
     }
+
     .lg\:justify-start {
         justify-content: flex-start
     }
+
     .lg\:gap-0 {
         gap: 0
     }
+
     .lg\:gap-4 {
         gap: 1rem
     }
+
     .lg\:space-x-6>:not([hidden])~:not([hidden]) {
         --tw-space-x-reverse: 0;
         margin-left: calc(1.5rem*(1 - var(--tw-space-x-reverse)));
         margin-right: calc(1.5rem*var(--tw-space-x-reverse))
     }
+
     .lg\:px-0 {
         padding-left: 0;
         padding-right: 0
     }
+
     .lg\:py-32 {
         padding-bottom: 8rem;
         padding-top: 8rem
     }
+
     .lg\:pl-10 {
         padding-left: 2.5rem
     }
+
     .lg\:pl-12 {
         padding-left: 3rem
     }
+
     .lg\:pr-6 {
         padding-right: 1.5rem
     }
+
     .lg\:text-left {
         text-align: left
     }
+
     .lg\:text-5xl {
         font-size: 3.052rem
     }
@@ -1953,18 +2000,23 @@ small {
     .xl\:grid {
         display: grid
     }
+
     .xl\:hidden {
         display: none
     }
+
     .xl\:w-2\/5 {
         width: 40%
     }
+
     .xl\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr))
     }
+
     .xl\:grid-cols-5 {
         grid-template-columns: repeat(5, minmax(0, 1fr))
     }
+
     .xl\:px-4 {
         padding-left: 1rem;
         padding-right: 1rem
@@ -2325,6 +2377,7 @@ button[aria-expanded=true] .collapse-icon {
         display: block;
         width: 100%
     }
+
     .dropdown-menu-list .dropdown-menu-list-submenu .dropdown-menu-list-submenu-list {
         margin: .5rem 0
     }
@@ -2559,6 +2612,7 @@ div.zoom img {
         overflow-x: scroll;
         overflow-y: hidden
     }
+
     .nav-line-bottom .nav-item .nav-link {
         display: block;
         white-space: nowrap
@@ -2588,6 +2642,7 @@ div.zoom img {
         overflow-x: scroll;
         overflow-y: hidden
     }
+
     .nav-pills-light::-webkit-scrollbar {
         display: none
     }
@@ -2635,9 +2690,11 @@ div.zoom img {
         overflow-x: scroll;
         overflow-y: hidden
     }
+
     .nav-scroll::-webkit-scrollbar {
         display: none
     }
+
     .nav-scroll .nav-item .nav-link {
         white-space: nowrap
     }
@@ -2792,14 +2849,17 @@ div.zoom img {
         transition: all .3s ease-in;
         visibility: hidden
     }
+
     .navbar-default .dropdown-menu-end {
         left: auto;
         right: 0
     }
+
     .navbar-default .dropdown-menu-start {
         left: 0;
         right: auto
     }
+
     .navbar-default .dropdown-submenu:hover>.dropdown-menu,
     .navbar-default .dropdown-submenuBig:hover>.dropdown-menu,
     .navbar-default .dropdown:hover>.dropdown-menu {
@@ -2817,6 +2877,7 @@ div.zoom img {
     .navbar-offcanvas-color .nav-item {
         width: 100%
     }
+
     .navbar-offcanvas-color .nav-item .nav-link {
         border-bottom: 1px solid #dfe2e1;
         color: rgb(33 49 60/var(--tw-text-opacity))
@@ -2842,6 +2903,7 @@ div.zoom img {
     .navbar .navbar-nav .nav-item .nav-link {
         border-bottom: 1px solid #dfe2e1
     }
+
     .navbar-nav .dropdown-menu {
         position: static
     }
@@ -2888,8 +2950,9 @@ div.zoom img {
 
 .navbar-dark .navbar-nav .nav-link {
     border-bottom: transparent;
+
     @media (min-width: 990px) {
-        color:#fff !important
+        color: #fff !important
     }
 }
 
@@ -3255,6 +3318,7 @@ div.zoom img {
         width: auto !important;
         z-index: auto
     }
+
     .navbar-expand-lg .offcanvas .offcanvas-header {
         display: none
     }
@@ -3314,6 +3378,7 @@ div.zoom img {
         transform: translateX(-100%);
         width: 400px
     }
+
     .offcanvas-md {
         background-clip: padding-box;
         background-color: #fff;
@@ -3327,10 +3392,12 @@ div.zoom img {
         visibility: hidden;
         z-index: 1024
     }
+
     .offcanvas-md.show:not(.hiding),
     .offcanvas-md.showing {
         transform: none
     }
+
     .offcanvas-md.hiding,
     .offcanvas-md.show,
     .offcanvas-md.showing {
@@ -3686,11 +3753,13 @@ h6>a:hover {
     left: 0;
     right: auto;
     width: 28px;
+
     &:after {
         content: "\ea60";
         font-family: tabler-icons;
         font-size: 14px
     }
+
     &:hover {
         background-color: #0aad0a;
         color: #fff
@@ -3706,11 +3775,13 @@ h6>a:hover {
     left: auto;
     right: 0;
     width: 28px;
+
     &:after {
         content: "\ea61";
         font-family: tabler-icons;
         font-size: 14px
     }
+
     &:hover {
         background-color: #0aad0a;
         color: #fff
@@ -3746,4 +3817,27 @@ h6>a:hover {
     --tw-border-opacity: 1;
     border-color: rgb(10 173 10/var(--tw-border-opacity));
     border-radius: .5rem
+}
+
+
+/*overlay_Extra_Style*/
+.header_overlay {
+  position: relative;
+  background: url(./assets/images/slider/Header.jpg) no-repeat center/cover;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.header_overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5); /* black overlay */
+  border-radius: 0.5rem; /* match parent */
+  z-index: 0; /* stays behind content */
+}
+
+.header_overlay > * {
+  position: relative;
+  z-index: 1; /* ensures text/content is above overlay */
 }
