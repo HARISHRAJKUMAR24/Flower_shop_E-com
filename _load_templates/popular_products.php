@@ -11,10 +11,13 @@
                         <div class="flex-auto p-4">
                             <div class="text-center relative flex justify-center">
                                 <div class="absolute top-0 left-0">
-                                    <span class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-red-600 text-white">Sale</span>
+                                    <span class="inline-flex items-center gap-1 px-3 py-1 text-xs font-semibold text-white rounded-full border border-green-400/40 bg-green-500/30 backdrop-blur-md">
+                                        <span class="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_10px_3px_rgba(34,197,94,0.9)] animate-pulse"></span>
+                                        Sale
+                                    </span>
                                 </div>
-                                <a href="#!"><img src="assets/images/products/product-img-1.jpg"
-                                        alt="Grocery Ecommerce Template" class="w-full h-auto" /></a>
+                                <a href="#!"><img src="../assets/images/products/mirabilis jalapa.jpg"
+                                        alt="Grocery Ecommerce Template" class="w-full h-auto product-img" /></a>
 
                                 <div class="absolute w-full bottom-[15%] opacity-0 invisible card-product-action">
                                     <a href="#!" class="h-[34px] w-[34px] leading-[34px] bg-white shadow inline-flex items-center justify-center rounded-lg hover:bg-green-600 hover:text-white" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View">
@@ -146,8 +149,8 @@
                                 <div class="absolute top-0 left-0">
                                     <span class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-green-600 text-white">14%</span>
                                 </div>
-                                <a href="#!"><img src="assets/images/products/product-img-2.jpg"
-                                        alt="Grocery Ecommerce Template" class="w-full h-auto" /></a>
+                                <a href="#!"><img src="../assets/images/products/december flower.jpg"
+                                        alt="Grocery Ecommerce Template" class="w-full h-auto product-img" /></a>
 
                                 <div class="absolute w-full bottom-[15%] opacity-0 invisible card-product-action">
                                     <a href="#!" class="h-[34px] w-[34px] leading-[34px] bg-white shadow inline-flex items-center justify-center rounded-lg hover:bg-green-600 hover:text-white" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View">
@@ -275,8 +278,8 @@
                     <div class="relative rounded-lg break-words border bg-white border-gray-300 card-product">
                         <div class="flex-auto p-4">
                             <div class="text-center relative flex justify-center">
-                                <a href="#!"><img src="assets/images/products/product-img-3.jpg"
-                                        alt="Grocery Ecommerce Template" class="w-full h-auto" /></a>
+                                <a href="#!"><img src="../assets/images/products/marigoldflower.jpg "
+                                        alt="Grocery Ecommerce Template" class="w-full h-auto product-img" /></a>
 
                                 <div class="absolute w-full bottom-[15%] opacity-0 invisible card-product-action">
                                     <a href="#!" class="h-[34px] w-[34px] leading-[34px] bg-white shadow inline-flex items-center justify-center rounded-lg hover:bg-green-600 hover:text-white" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View">
