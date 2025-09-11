@@ -1,4 +1,4 @@
-<section class="mt-8">
+<section class="mt-8"id="today_trending">
     <div class="container mx-auto relative">
         <div class="flex flex-wrap">
             <div class="w-full">

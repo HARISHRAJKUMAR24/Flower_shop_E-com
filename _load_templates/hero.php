@@ -1,4 +1,4 @@
-        <section class="mt-8">
+        <section class="mt-8" id="home">
             <div class="container">
                 <div class="swiper-container swiper" id="swiper-1" data-pagination-type="" data-speed="400" data-space-between="100" data-pagination="true" data-navigation="false" data-autoplay="true" data-autoplay-delay="3000" data-effect="fade" data-breakpoints='{"480": {"slidesPerView": 1}, "768": {"slidesPerView": 1}, "1024": {"slidesPerView": 1}}'>
                     <div class="swiper-wrapper pb-8">

@@ -122,6 +122,10 @@
     --tw-content: ""
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :host,
 html {
     line-height: 1.5;
@@ -4027,3 +4031,11 @@ h6>a:hover {
 .badge-green .dot-glow { background: #22c55e; color: #22c55e; }
 .badge-red .dot-glow { background: #ef4444; color: #ef4444; }
 .badge-amber .dot-glow { background: #fbbf24; color: #fbbf24; }
+
+
+.product-card img {
+  width: 100%;        /* Fill card width */
+  height: 240px;      /* Fixed height */
+  object-fit: cover;  /* Crop & center nicely */
+  border-radius: 12px; /* Optional: rounded corners */
+}

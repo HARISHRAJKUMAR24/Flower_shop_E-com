@@ -1,21 +1,21 @@
         <section>
-            <div class="container">
+            <div class="container mt-8" id="seasonal">
                 <div class="flex flex-wrap">
-                    <div class="md:w-full mb-6">
-                        <h2 class="text-lg">Daily Best Sells</h2>
+                    <div class="md:w-full mb-4">
+                        <h2 class="text-lg">Seasonal Picks</h2>
                     </div>
                 </div>
                 <div class="block w-full overflow-x-auto scrolling-touch pb-6">
                     <div class="xl:grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 flex-nowrap flex">
                         <div class="flex-0 block w-full md:w-auto">
-                            <div class="pt-8 px-6 rounded-lg" style="background: url(./assets/images/banner/banner-deal.jpg) no-repeat; background-size: cover; height: 470px">
+                            <div class="pt-8 px-6 rounded-lg" style="background: url(../assets/images/banner/Seasonal\ Picks.jpg) no-repeat; background-size: cover; height: 100%">
                                 <div class="flex flex-col gap-5">
                                     <div class="flex flex-col gap-2">
-                                        <h3 class="text-lg text-white">100% Organic Coffee Beans.</h3>
-                                        <p class="text-white text-base">Get the best deal before close.</p>
+                                        <h3 class="text-lg text-white">Seasonal Favorites Just Arrived</h3>
+                                        <p class="text-white text-base">Fresh, Vibrant, and Ready to Deliver</p>
                                     </div>
                                     <div>
-                                        <a href="#!" class="btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300">
+                                        <a href="#!" id="goToCart" class="btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300">
                                             <span>Shop Now</span>
                                             <span>
                                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -34,11 +34,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex-0 block w-full md:w-auto">
+                        <div class="flex-0 block w-full md:w-auto" id="cart">
                             <div class="relative flex flex-col min-w-0 rounded-lg break-words border bg-white border-gray-300 card-product">
                                 <div class="flex-auto p-4">
-                                    <div class="text-center relative flex justify-center">
-                                        <a href="#!"><img src="assets/images/products/product-img-11.jpg"
+                                    <div class="text-center relative flex justify-center product-card">
+                                        <a href="#!"><img src="../assets/images/products/december flower.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 class="mb-3 m-auto max-w-full h-auto" /></a>
 
@@ -173,8 +173,8 @@
                         <div class="flex-0 block w-full md:w-auto">
                             <div class="relative flex flex-col min-w-0 rounded-lg break-words border bg-white border-gray-300 card-product">
                                 <div class="flex-auto p-4">
-                                    <div class="text-center relative flex justify-center">
-                                        <a href="#!"><img src="assets/images/products/product-img-12.jpg"
+                                    <div class="text-center relative flex justify-center product-card">
+                                        <a href="#!"><img src="../assets/images/products/marigoldflower.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 class="mb-3 m-auto max-w-full h-auto" /></a>
                                         <div class="absolute w-full bottom-[15%] opacity-0 invisible card-product-action">
@@ -308,8 +308,8 @@
                         <div class="flex-0 block w-full md:w-auto">
                             <div class="relative flex flex-col min-w-0 rounded-lg break-words border bg-white border-gray-300 card-product">
                                 <div class="flex-auto p-4">
-                                    <div class="text-center relative flex justify-center">
-                                        <a href="#!"><img src="assets/images/products/product-img-13.jpg"
+                                    <div class="text-center relative flex justify-center product-card">
+                                        <a href="#!"><img src="../assets/images/products/lotus.jpg"
                                                 alt="Grocery Ecommerce Template"
                                                 class="mb-3 m-auto max-w-full h-auto" /></a>
                                         <div class="absolute w-full bottom-[15%] opacity-0 invisible card-product-action">

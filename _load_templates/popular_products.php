@@ -1,4 +1,4 @@
-        <section class="lg:my-14 my-8">
+        <section class="lg:my-14 my-8" id="popular_products">
             <div class="container">
                 <div class="flex flex-wrap">
                     <div class="w-full mb-6">
@@ -552,7 +552,7 @@
                 <div class="relative rounded-lg break-words border bg-white border-gray-300 card-product" data-category="seed">
                     <div class="flex-auto p-4">
                         <div class="text-center relative flex justify-center">
-                            <a href="#!"><img src="../assets/images/products/flower cracker.jpg"
+                            <a href="#!"><img src="../assets/images/products/fire cracker flower.jpg"
                                     alt="Grocery Ecommerce Template" class="w-full h-auto product-img" /></a>
 
                             <div class="absolute w-full bottom-[15%] opacity-0 invisible card-product-action">

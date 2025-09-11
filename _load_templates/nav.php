@@ -1,9 +1,8 @@
-        <div class="border-b">
+        <div class="border-b" id="navbar">
             <div class="bg-gray-100 py-1">
                 <div class="container">
                     <div class="flex flex-wrap">
-                        <div class="md:w-1/2 w-full text-center md:text-left"><span>Super Value Deals - Save more with
-                                coupons</span>
+                        <div class="md:w-1/2 w-full text-center md:text-left"><span>Minimum Order: ₹100</span>
                         </div>
                         <div class="w-1/2 text-right hidden lg:block">
                             <div class="dropdown flex justify-end">
@@ -92,8 +91,8 @@
                 <div class="container">
                     <div class="flex flex-wrap w-full items-center justify-between">
                         <div class="lg:w-1/6 md:w-1/2 w-2/5">
-                            <a class="navbar-brand" href="./index.html">
-                                <img src="./assets/images/logo/freshcart-logo.svg"
+                            <a class="navbar-brand" href="../index.php">
+                                <img src="../assets/images/logo/logo.png"
                                     alt="TailwindCSS eCommerce HTML Template" />
                             </a>
                         </div>
@@ -190,7 +189,7 @@
                 <div class="container max-w-7xl mx-auto w-full xl:px-4 lg:px-0">
                     <div class="offcanvas offcanvas-left lg:visible" tabindex="-1" id="navbar-default">
                         <div class="offcanvas-header pb-1">
-                            <a href="./index.html"><img src="./assets/images/logo/freshcart-logo.svg"
+                            <a href="./index.html"><img src="../assets/images/logo/logo.png"
                                     alt="TailwindCSS eCommerce HTML Template" /></a>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x text-gray-700"
@@ -226,34 +225,25 @@
                                 <a class="btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 justify-center"
                                     data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     <span class="mr-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="icon icon-tabler icon-tabler-layout-grid" width="16" height="16"
-                                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path
-                                                d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-                                            <path
-                                                d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-                                            <path
-                                                d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-                                            <path
-                                                d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-leaf-fill" viewBox="0 0 16 16">
+                                            <path d="M1.4 1.7c.217.289.65.84 1.725 1.274 1.093.44 2.885.774 5.834.528 2.02-.168 3.431.51 4.326 1.556C14.161 6.082 14.5 7.41 14.5 8.5q0 .344-.027.734C13.387 8.252 11.877 7.76 10.39 7.5c-2.016-.288-4.188-.445-5.59-2.045-.142-.162-.402-.102-.379.112.108.985 1.104 1.82 1.844 2.308 2.37 1.566 5.772-.118 7.6 3.071.505.8 1.374 2.7 1.75 4.292.07.298-.066.611-.354.715a.7.7 0 0 1-.161.042 1 1 0 0 1-1.08-.794c-.13-.97-.396-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.124-.887-1.889-2.095-2.39-3.383-1-2.562-1-5.536-.65-7.28L.73.806z" />
                                         </svg>
                                     </span>
-                                    All Departments
+                                    All Plants
                                 </a>
                                 <div class="collapse mt-2" id="collapseExample">
                                     <div class="card card-body">
                                         <ul class="list-unstyled">
-                                            <li><a class="dropdown-item" href="#!">Dairy, Bread & Eggs</a></li>
-                                            <li><a class="dropdown-item" href="#!">Snacks & Munchies</a></li>
-                                            <li><a class="dropdown-item" href="#!">Fruits & Vegetables</a></li>
-                                            <li><a class="dropdown-item" href="#!">Cold Drinks & Juices</a></li>
-                                            <li><a class="dropdown-item" href="#!">Breakfast & Instant Food</a></li>
-                                            <li><a class="dropdown-item" href="#!">Bakery & Biscuits</a></li>
-                                            <li><a class="dropdown-item" href="#!">Chicken, Meat & Fish</a></li>
+                                            <li><a class="dropdown-item" href="#!">Mirabilis Jalapa</a></li>
+                                            <li><a class="dropdown-item" href="#!">December Flower</a></li>
+                                            <li><a class="dropdown-item" href="#!">Mari Gold Flower</a></li>
+                                            <li><a class="dropdown-item" href="#!">Lotus</a></li>
+                                            <li><a class="dropdown-item" href="#!">Fire Cracker Flower</a></li>
+                                            <li><a class="dropdown-item" href="#!">Money Plant</a></li>
+                                            <li><a class="dropdown-item" href="#!">Aloe Vera</a></li>
+                                            <li><a class="dropdown-item" href="#!">Tulasi</a></li>
                                         </ul>
+
                                     </div>
                                 </div>
                             </div>
@@ -261,84 +251,42 @@
                                 <button class="mr-4 btn inline-flex items-center gap-x-2 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300"
                                     type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="icon icon-tabler icon-tabler-layout-grid" width="16" height="16"
-                                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path
-                                                d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-                                            <path
-                                                d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-                                            <path
-                                                d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-                                            <path
-                                                d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-leaf-fill" viewBox="0 0 16 16">
+                                            <path d="M1.4 1.7c.217.289.65.84 1.725 1.274 1.093.44 2.885.774 5.834.528 2.02-.168 3.431.51 4.326 1.556C14.161 6.082 14.5 7.41 14.5 8.5q0 .344-.027.734C13.387 8.252 11.877 7.76 10.39 7.5c-2.016-.288-4.188-.445-5.59-2.045-.142-.162-.402-.102-.379.112.108.985 1.104 1.82 1.844 2.308 2.37 1.566 5.772-.118 7.6 3.071.505.8 1.374 2.7 1.75 4.292.07.298-.066.611-.354.715a.7.7 0 0 1-.161.042 1 1 0 0 1-1.08-.794c-.13-.97-.396-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.124-.887-1.889-2.095-2.39-3.383-1-2.562-1-5.536-.65-7.28L.73.806z" />
                                         </svg>
                                     </span>
-                                    All Departments
+                                    All Plants
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#!">Dairy, Bread & Eggs</a></li>
-                                    <li><a class="dropdown-item" href="#!">Snacks & Munchies</a></li>
-                                    <li><a class="dropdown-item" href="#!">Fruits & Vegetables</a></li>
-                                    <li><a class="dropdown-item" href="#!">Cold Drinks & Juices</a></li>
-                                    <li><a class="dropdown-item" href="#!">Breakfast & Instant Food</a></li>
-                                    <li><a class="dropdown-item" href="#!">Bakery & Biscuits</a></li>
-                                    <li><a class="dropdown-item" href="#!">Chicken, Meat & Fish</a></li>
+                                    <li><a class="dropdown-item" href="#!">Mirabilis Jalapa</a></li>
+                                    <li><a class="dropdown-item" href="#!">December Flower</a></li>
+                                    <li><a class="dropdown-item" href="#!">Mari Gold Flower</a></li>
+                                    <li><a class="dropdown-item" href="#!">Lotus</a></li>
+                                    <li><a class="dropdown-item" href="#!">Fire Cracker Flower</a></li>
+                                    <li><a class="dropdown-item" href="#!">Money Plant</a></li>
+                                    <li><a class="dropdown-item" href="#!">Aloe Vera</a></li>
+                                    <li><a class="dropdown-item" href="#!">Tulasi</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul class="navbar-nav lg:flex gap-3 lg:items-center">
                                     <li class="nav-item dropdown w-full lg:w-auto">
-                                        <a class="nav-link " href="./index.html" role="button">Home</a>
-
+                                        <a class="nav-link" href="#home">Home</a>
                                     </li>
-                                    <li class="nav-item dropdown w-full lg:w-auto">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown Menu</a>
-                                        <ul class="dropdown-menu">
-
-                                            <li>
-                                                <a class="dropdown-item" href="#!">
-                                                    Dropdown Link
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#!">
-                                                    Dropdown Link
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#!">
-                                                    Dropdown Link
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#!">
-                                                    Dropdown Link
-
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
                                     <li class="nav-item dropdown w-full lg:w-auto dropdown-fullwidth">
-                                        <a class="nav-link " href="#!">Mega
-                                            menu
-                                        </a>
-
+                                        <a class="nav-link" href="#popular_products">Popular Products</a>
                                     </li>
-
-
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#!">Dashboard</a>
+                                        <a class="nav-link" href="#today_trending">Today's Trending</a>
                                     </li>
-
-
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#seasonal">Seasonal Picks</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact Us</a>
+                                    </li>
                                 </ul>
+
                             </div>
                         </div>
                     </div>
