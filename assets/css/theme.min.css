@@ -4039,3 +4039,44 @@ h6>a:hover {
   object-fit: cover;  /* Crop & center nicely */
   border-radius: 12px; /* Optional: rounded corners */
 }
+
+/* 🔹 Trending Section Image Size */
+/* 🔹 Trending Section Image Size with Padding */
+/* 🔹 Trending Section Image Size */
+.tdy_trend_img {
+  width: 120px;   /* fixed width */
+  height: 120px;  /* fixed height */
+  object-fit: cover;  /* keeps image proportion and crops overflow */
+  display: block;
+}
+/* 📱 Mobile */
+@media (max-width: 640px) {
+  .tdy_trend_img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* 💻 Tablet */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .tdy_trend_img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* 🖥️ Desktop */
+@media (min-width: 1024px) {
+  .tdy_trend_img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Why Choose Us icon images */
+.w_c_u_img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+}

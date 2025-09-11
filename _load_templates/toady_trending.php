@@ -16,8 +16,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-dairy-bread-eggs.jpg" alt="Dairy, Bread & Eggs" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Dairy, Bread & Eggs</div>
+                            <img src="../assets/images/products/sunflower.jpg" alt="Dairy, Bread & Eggs" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Sunflower</div>
                         </div>
                     </a>
                 </div>
@@ -26,8 +26,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-snack-munchies.jpg" alt="Snack & Munchies" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Snack & Munchies</div>
+                            <img src="../assets/images/products/hibiscus.png" alt="Snack & Munchies" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Hibiscus</div>
                         </div>
                     </a>
                 </div>
@@ -36,8 +36,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-bakery-biscuits.jpg" alt="Bakery & Biscuits" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Bakery & Biscuits</div>
+                            <img src="../assets/images/products/money_plant.jpg" alt="Bakery & Biscuits" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Money Plant</div>
                         </div>
                     </a>
                 </div>
@@ -46,8 +46,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-instant-food.jpg" alt="Instant Food" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Instant Food</div>
+                            <img src="../assets/images/products/rose plant.jpg" alt="Instant Food" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Rose Plant</div>
                         </div>
                     </a>
                 </div>
@@ -56,8 +56,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-tea-coffee-drinks.jpg" alt="Tea, Coffee & Drinks" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Tea, Coffee & Drinks</div>
+                            <img src="../assets/images/products/jasmine-plant.jpg" alt="Tea, Coffee & Drinks" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Jasime Plant</div>
                         </div>
                     </a>
                 </div>
@@ -66,8 +66,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-atta-rice-dal.jpg" alt="Atta, Rice & Dal" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Atta, Rice & Dal</div>
+                            <img src="../assets/images/products/rose_tdy.jpg" alt="Atta, Rice & Dal" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Red Rose Plant</div>
                         </div>
                     </a>
                 </div>
@@ -76,8 +76,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-baby-care.jpg" alt="Baby Care" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Baby Care</div>
+                            <img src="../assets/images/products/Tuberose flower plant.jpg" alt="Baby Care" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Tuberose Plant</div>
                         </div>
                     </a>
                 </div>
@@ -86,8 +86,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-chicken-meat-fish.jpg" alt="Chicken, Meat & Fish" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Chicken, Meat & Fish</div>
+                            <img src="../assets/images/products/pavalamali.jpg" alt="Chicken, Meat & Fish" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Pavala Mali</div>
                         </div>
                     </a>
                 </div>
@@ -96,8 +96,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-cleaning-essentials.jpg" alt="Cleaning Essentials" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Cleaning Essentials</div>
+                            <img src="../assets/images/products/tdy_j_mali.jpg" alt="Cleaning Essentials" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Jathi Mali</div>
                         </div>
                     </a>
                 </div>
@@ -106,8 +106,8 @@
                 <div class="swiper-slide">
                     <a href="#!">
                         <div class="relative rounded-lg border bg-white border-gray-300 transition duration-75 hover:border-green-600 hover:shadow-md text-center py-8">
-                            <img src="assets/images/category/category-pet-care.jpg" alt="Pet Care" class="mb-3 m-auto rounded-lg" />
-                            <div class="text-base">Pet Care</div>
+                            <img src="../assets/images/products/tdy_lotus.jpg" alt="Pet Care" class="tdy_trend_img mb-3 m-auto rounded-lg" />
+                            <div class="text-base">Lotus</div>
                         </div>
                     </a>
                 </div>

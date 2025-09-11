@@ -50,14 +50,14 @@ include 'libs/load.php'
         <?php load_template('hero') ?>
         <!-- Hero End -->
 
-                <!-- Popular Products-->
+        <!-- Popular Products-->
         <?php load_template('popular_products') ?>
         <!-- Popular Products End-->
 
         <!-- Attrcat-->
         <?php load_template('attract') ?>
-        <!--Attract End --> 
-        
+        <!--Attract End -->
+
         <!-- Daily Best Sells-->
         <?php load_template('seasonal_picks') ?>
         <!-- Daily Best Sells End-->
@@ -65,10 +65,6 @@ include 'libs/load.php'
         <!-- Featured Categories-->
         <?php load_template('toady_trending') ?>
         <!--Featured Categories End -->
-
-
-
-
 
         <!-- Why We Choose Us-->
         <?php load_template('why_we_choose_us') ?>
