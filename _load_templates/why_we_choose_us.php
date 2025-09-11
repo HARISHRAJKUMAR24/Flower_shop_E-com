@@ -1,15 +1,15 @@
 <section class="lg:my-14 my-8">
   <div class="container">
-    
+
     <!-- Section Heading -->
-<div class="w-full mb-6 text-center lg:text-left">
-  <h2 class="text-lg font-bold">Why We Choose Us</h2>
-</div>
+    <div class="w-full mb-6 text-center lg:text-left">
+      <h2 class="text-lg font-bold">Why We Choose Us</h2>
+    </div>
 
 
     <!-- Features Grid -->
     <div class="flex flex-wrap gap-y-6">
-      
+
       <div class="md:w-1/2 lg:w-1/4 px-3">
         <div class="flex flex-col gap-4 items-center lg:items-start text-center lg:text-left">
           <div class="inline-block">

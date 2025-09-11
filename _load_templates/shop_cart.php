@@ -67,7 +67,7 @@
                             </div>
                             <!-- price -->
                             <div class="w-1/5 text-center md:w-1/5">
-                                <span class="font-bold text-gray-800">$5.00</span>
+                                <span class="font-bold text-gray-800">₹5.00</span>
                             </div>
                         </div>
                     </li>
@@ -116,8 +116,8 @@
                             </div>
                             <!-- price -->
                             <div class="w-1/5 text-center md:w-1/5">
-                                <span class="font-bold text-red-600">$20.00</span>
-                                <div class="line-through text-gray-500 small">$26.00</div>
+                                <span class="font-bold text-red-600">₹20.00</span>
+                                <div class="line-through text-gray-500 small">₹26.00</div>
                             </div>
                         </div>
                     </li>
@@ -167,8 +167,8 @@
                             </div>
                             <!-- price -->
                             <div class="w-1/5 text-center md:w-1/5">
-                                <span class="font-bold text-gray-800">$15.00</span>
-                                <div class="line-through text-gray-500 small">$20.00</div>
+                                <span class="font-bold text-gray-800">₹15.00</span>
+                                <div class="line-through text-gray-500 small">₹20.00</div>
                             </div>
                         </div>
                     </li>
@@ -219,8 +219,8 @@
                             </div>
                             <!-- price -->
                             <div class="w-1/5 text-center md:w-1/5">
-                                <span class="font-bold text-gray-800">$15.00</span>
-                                <div class="line-through text-gray-500 small">$20.00</div>
+                                <span class="font-bold text-gray-800">₹15.00</span>
+                                <div class="line-through text-gray-500 small">₹20.00</div>
                             </div>
                         </div>
                     </li>
@@ -270,8 +270,8 @@
                             </div>
                             <!-- price -->
                             <div class="w-1/5 text-center md:w-1/5">
-                                <span class="font-bold text-gray-800">$15.00</span>
-                                <div class="line-through text-gray-500 small">$25.00</div>
+                                <span class="font-bold text-gray-800">₹15.00</span>
+                                <div class="line-through text-gray-500 small">₹25.00</div>
                             </div>
                         </div>
                     </li>

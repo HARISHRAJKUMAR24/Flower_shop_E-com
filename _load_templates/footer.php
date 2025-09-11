@@ -34,7 +34,7 @@
         <h6 class="font-semibold text-base mt-4 mb-2">Offers</h6>
         <ul class="flex flex-col gap-2 text-sm">
           <li><a href="#!" class="hover:text-green-600">Opening Sale - 50% Off</a></li>
-          <li><a href="#!" class="hover:text-green-600">Free Shipping Over $100</a></li>
+          <li><a href="#!" class="hover:text-green-600">Free Shipping Over ₹100</a></li>
           <li><a href="#!" class="hover:text-green-600">First-Time Free Delivery</a></li>
           <li><a href="#!" class="hover:text-green-600">Best Selling Plants</a></li>
           <li><a href="#!" class="hover:text-green-600">Hot Seasonal Deals</a></li>

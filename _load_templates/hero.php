@@ -33,7 +33,7 @@
                                 <div class="my-7 flex flex-col gap-2">
                                     <h2 class="text-lg text-white text-xl lg:text-5xl font-bold leading-tight">
                                         All Flowers One Place
-                                        <!--<span class="text-green-600">$100</span>-->
+                                        <!--<span class="text-green-600">₹100</span>-->
                                     </h2>
                                     <p class="text-white font-light">Browse fresh flowers and gifts to make every moment special</p>
                                 </div>

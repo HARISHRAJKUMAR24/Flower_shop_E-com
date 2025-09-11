@@ -1,14 +1,17 @@
         <section>
             <div class="container">
+                <div class="w-full mb-6 text-center lg:text-left">
+                    <h2 class="text-lg font-bold">Get Exclusive Offers from</h2>
+                </div>
                 <div class="flex md:space-x-2 lg:space-x-6 flex-wrap md:flex-nowrap">
                     <div class="w-full md:w-1/2 mb-3 lg:">
-                        <div class="py-10 px-8 rounded-lg" style="background: url(./assets/images/banner/grocery-banner.png) no-repeat; background-size: cover; background-position: center">
+                        <div class="py-10 px-8 rounded-lg header_overlay" style="background: url(../assets/images/banner/grocery-banner.jpg) no-repeat; background-size: cover; background-position: center">
                             <div class="flex flex-col gap-5">
                                 <div class="flex flex-col gap-1">
-                                    <h2 class="font-bold text-xl">Fruits & Vegetables</h2>
-                                    <p>
+                                    <h2 class=" text-white font-bold text-xl">Grow Your Garden</h2>
+                                    <p class="text-white">
                                         Get Upto
-                                        <span class="font-bold text-gray-800">30%</span> Off
+                                        <span class="font-bold text-gray-800">30%</span> Off Fresh Plants & Organic Seeds
                                     </p>
                                 </div>
 
@@ -21,13 +24,13 @@
                         </div>
                     </div>
                     <div class="w-full md:w-1/2">
-                        <div class="py-10 px-8 rounded-lg" style="background: url(./assets/images/banner/grocery-banner-2.jpg) no-repeat; background-size: cover; background-position: center">
+                        <div class="py-10 px-8 rounded-lg header_overlay" style="background: url(./assets/images/banner/grocery-banner-2.jpg) no-repeat; background-size: cover; background-position: center">
                             <div class="flex flex-col gap-5">
                                 <div class="flex flex-col gap-1">
-                                    <h2 class="font-bold text-xl">Freshly Baked Buns</h2>
-                                    <p>
+                                    <h2 class="font-bold text-xl text-white">Feed Your Plants</h2>
+                                    <p class="text-white">
                                         Get Upto
-                                        <span class="font-bold text-gray-800">25%</span> Off
+                                        <span class="font-bold text-gray-800">25%</span> Off Organic Fertilizers
                                     </p>
                                 </div>
 

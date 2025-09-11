@@ -133,8 +133,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$18</span>
-                                    <span class="line-through text-gray-500">$24</span>
+                                    <span class="text-gray-900 font-semibold">₹18</span>
+                                    <span class="line-through text-gray-500">₹24</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -262,7 +262,7 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$24</span>
+                                    <span class="text-gray-900 font-semibold">₹24</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -396,8 +396,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$32</span>
-                                    <span class="line-through text-gray-500">$35</span>
+                                    <span class="text-gray-900 font-semibold">₹32</span>
+                                    <span class="line-through text-gray-500">₹35</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -529,8 +529,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$3</span>
-                                    <span class="line-through text-gray-500">$5</span>
+                                    <span class="text-gray-900 font-semibold">₹3</span>
+                                    <span class="line-through text-gray-500">₹5</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -658,8 +658,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$13</span>
-                                    <span class="line-through text-gray-500">$18</span>
+                                    <span class="text-gray-900 font-semibold">₹13</span>
+                                    <span class="line-through text-gray-500">₹18</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -786,8 +786,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$18</span>
-                                    <span class="line-through text-gray-500">$24</span>
+                                    <span class="text-gray-900 font-semibold">₹18</span>
+                                    <span class="line-through text-gray-500">₹24</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -915,7 +915,7 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$24</span>
+                                    <span class="text-gray-900 font-semibold">₹24</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -1043,8 +1043,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$32</span>
-                                    <span class="line-through text-gray-500">$35</span>
+                                    <span class="text-gray-900 font-semibold">₹32</span>
+                                    <span class="line-through text-gray-500">₹35</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -1172,8 +1172,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$3</span>
-                                    <span class="line-through text-gray-500">$5</span>
+                                    <span class="text-gray-900 font-semibold">₹3</span>
+                                    <span class="line-through text-gray-500">₹5</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">
@@ -1301,8 +1301,8 @@
                             </div>
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <span class="text-gray-900 font-semibold">$13</span>
-                                    <span class="line-through text-gray-500">$18</span>
+                                    <span class="text-gray-900 font-semibold">₹13</span>
+                                    <span class="line-through text-gray-500">₹18</span>
                                 </div>
                                 <div>
                                     <button type="button" class="btn inline-flex items-center gap-x-1 bg-green-600 text-white border-green-600 disabled:opacity-50 disabled:pointer-events-none hover:text-white hover:bg-green-700 hover:border-green-700 active:bg-green-700 active:border-green-700 focus:outline-none focus:ring-4 focus:ring-green-300 btn-sm">

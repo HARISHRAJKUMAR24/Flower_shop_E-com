@@ -87,8 +87,8 @@
 
                                             <div class="flex justify-between items-center">
                                                 <div>
-                                                    <span class="text-gray-900 font-semibold">$13</span>
-                                                    <span class="line-through text-gray-500">$18</span>
+                                                    <span class="text-gray-900 font-semibold">₹13</span>
+                                                    <span class="line-through text-gray-500">₹18</span>
                                                 </div>
                                                 <div>
                                                     <div class="flex items-center">
@@ -222,8 +222,8 @@
                                             <h3 class="text-base truncate"><a href="#!">Crushed Tomatoes</a></h3>
                                             <div class="flex justify-between items-center">
                                                 <div>
-                                                    <span class="text-gray-900 font-semibold">$13</span>
-                                                    <span class="line-through text-gray-500">$18</span>
+                                                    <span class="text-gray-900 font-semibold">₹13</span>
+                                                    <span class="line-through text-gray-500">₹18</span>
                                                 </div>
                                                 <div>
                                                     <div class="flex items-center">
@@ -358,8 +358,8 @@
                                                 <h3 class="text-base truncate"><a href="#!">Golden Pineapple</a></h3>
                                                 <div class="flex justify-between items-center">
                                                     <div>
-                                                        <span class="text-gray-900 font-semibold">$13</span>
-                                                        <span class="line-through text-gray-500">$18</span>
+                                                        <span class="text-gray-900 font-semibold">₹13</span>
+                                                        <span class="line-through text-gray-500">₹18</span>
                                                     </div>
                                                     <div class="flex items-center">
                                                         <small class="text-yellow-500 flex items-center">

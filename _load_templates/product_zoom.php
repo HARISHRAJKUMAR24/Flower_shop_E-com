@@ -180,8 +180,8 @@
                                             <a href="#" class="text-green-600">(30 reviews)</a>
                                         </div>
                                         <div class="text-md">
-                                            <span class="text-gray-900 font-semibold">$18</span>
-                                            <span class="line-through text-gray-500">$24</span>
+                                            <span class="text-gray-900 font-semibold">₹18</span>
+                                            <span class="line-through text-gray-500">₹24</span>
 
                                             <span><small class="text-red-600">26% Off</small></span>
                                         </div>
