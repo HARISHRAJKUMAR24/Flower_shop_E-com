@@ -1,164 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Featured Categories</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
     <style>
-        .swiper-button-next, 
-        .swiper-button-prev {
-            position: relative;
-            width: 40px;
-            height: 40px;
+        /* Product Image */
+        .product-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        /* Badge Glass */
+        .badge-glass {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #fff;
+            border-radius: 9999px;
+            backdrop-filter: blur(8px);
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            z-index: 10;
+        }
+
+        /* Badge Colors */
+        .badge-green {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+        }
+
+        .badge-red {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+        }
+
+        .badge-yellow {
+            background: rgba(234, 179, 8, 0.2);
+            color: #eab308;
+        }
+
+        /* Dot Glow */
+        .dot-glow,
+        .dot-glow-red,
+        .dot-glow-yellow {
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
-            background-color: white;
-            border: 1px solid #e5e7eb;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-            color: #4b5563;
-            top: auto;
-            margin-top: 0;
+            box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
         }
-        .swiper-button-next:after, 
-        .swiper-button-prev:after {
-            font-size: 16px;
-            font-weight: bold;
+
+        .dot-glow {
+            background: #22c55e;
+            box-shadow: 0 0 10px 3px rgba(34, 197, 94, 0.8);
+            animation: pulseGlow 1.5s infinite;
         }
-        .swiper-button-next:hover, 
-        .swiper-button-prev:hover {
-            background-color: #16a34a;
-            color: white;
-            border-color: #16a34a;
+
+        .dot-glow-red {
+            background: #ef4444;
+            box-shadow: 0 0 10px 3px rgba(239, 68, 68, 0.8);
+            animation: pulseGlow 1.5s infinite;
+        }
+
+        .dot-glow-yellow {
+            background: #eab308;
+            box-shadow: 0 0 10px 3px rgba(234, 179, 8, 0.8);
+            animation: pulseGlow 1.5s infinite;
+        }
+
+        /* Glow Animation */
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 10px 3px currentColor;
+            }
+
+            50% {
+                box-shadow: 0 0 16px 6px currentColor;
+            }
+        }
+
+        /* Category Buttons */
+        .category-tabs {
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            padding: 6px 14px;
+            background: #f3f4f6;
+            border-radius: 9999px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .category-btn.active {
+            background: #22c55e;
+            color: #fff;
+        }
+
+        /* Responsive Grid */
+        @media (max-width: 1024px) {
+            .grid-cols-5 {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .grid-cols-5 {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .grid-cols-5 {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
     </style>
 </head>
-<body class="bg-gray-50">
-    <section class="mt-8">
-        <div class="container mx-auto px-4">
-            <!-- Header with title and navigation buttons -->
-            <div class="flex items-center justify-between mb-6">
-                <h2 class="text-2xl font-bold text-gray-800">Featured Categories</h2>
-                <div class="flex space-x-2">
-                    <div class="swiper-button-prev !static"></div>
-                    <div class="swiper-button-next !static"></div>
+
+<body>
+    <section class="lg:my-14 my-8">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="flex flex-wrap mb-6">
+                <div class="w-full">
+                    <h2 class="text-lg font-semibold">Popular Plants</h2>
                 </div>
             </div>
-            
-            <!-- Swiper container -->
-            <div class="swiper-container swiper" id="swiper-1" data-pagination-type="" data-speed="400"
-                data-space-between="20" data-pagination="false" data-navigation="true" data-autoplay="true"
-                data-autoplay-delay="3000" data-effect="slide"
-                data-breakpoints='{"480": {"slidesPerView": 2}, "768": {"slidesPerView": 3}, "1024": {"slidesPerView": 6}}'>
-                <div class="swiper-wrapper py-4">
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Dairy" alt="Dairy, Bread & Eggs" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Dairy, Bread & Eggs</div>
+
+            <!-- Category Tabs -->
+            <div class="flex flex-wrap gap-3 mb-4 category-tabs">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="seed">Seeds</button>
+                <button class="category-btn" data-category="medicinal">Medicinal</button>
+                <button class="category-btn" data-category="plant">Plant</button>
+                <button class="category-btn" data-category="kodi">Kodi Plant</button>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+
+                <!-- Product Example -->
+                <div class="relative rounded-lg border bg-white border-gray-300 card-product" data-category="seed">
+                    <div class="flex-auto p-4">
+                        <div class="text-center relative flex justify-center">
+
+                            <!-- Badge -->
+                            <div class="badge-stack">
+                                <span class="badge-glass badge-green">
+                                    <span class="dot-glow"></span>
+                                    Up Coming
+                                </span>
+                            </div>
+
+                            <a href="#!">
+                                <img src="../assets/images/products/mirabilis jalapa.jpg" alt="Mirabilis Jalapa"
+                                    class="w-full h-auto product-img" />
+                            </a>
+
+                        </div>
+
+                        <!-- Product Info -->
+                        <div class="flex flex-col gap-3 mt-3">
+                            <a href="#!" class="text-gray-500 category-link"><small>Seed</small></a>
+                            <h3 class="text-base truncate"><a href="#!">Mirabilis Jalapa</a></h3>
+                            <div class="flex justify-between items-center">
+                                <div><span class="text-gray-900 font-semibold">$18</span></div>
+                                <div>
+                                    <button type="button" class="btn-add">Add</button>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Snacks" alt="Snack & Munchies" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Snack & Munchies</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Bakery" alt="Bakery & Biscuits" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Bakery & Biscuits</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Instant" alt="Instant Food" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Instant Food</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Drinks" alt="Tea, Coffee & Drinks" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Tea, Coffee & Drinks</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Atta" alt="Atta, Rice & Dal" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Atta, Rice & Dal</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Baby" alt="Baby Care" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Baby Care</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#!">
-                            <div class="relative rounded-lg break-words border bg-white border-gray-300 transition duration-75 hover:transition hover:duration-500 ease-in-out hover:border-green-600 hover:shadow-md">
-                                <div class="py-8 text-center">
-                                    <img src="https://via.placeholder.com/100x100?text=Meat" alt="Chicken, Meat & Fish" class="mb-3 m-auto w-20 h-20 object-contain" />
-                                    <div class="text-base font-medium">Chicken, Meat & Fish</div>
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Duplicate Product Cards and change data-category accordingly -->
+                <div class="relative rounded-lg border bg-white border-gray-300 card-product" data-category="medicinal">
+                    <div class="flex-auto p-4">
+                        <div class="text-center relative flex justify-center">
+                            <div class="badge-stack">
+                                <span class="badge-glass badge-red">
+                                    <span class="dot-glow-red"></span>
+                                    Hot
+                                </span>
+                            </div>
+                            <a href="#!">
+                                <img src="../assets/images/products/december flower.jpg" alt="December Flower"
+                                    class="w-full h-auto product-img" />
+                            </a>
+                        </div>
+                        <div class="flex flex-col gap-3 mt-3">
+                            <a href="#!" class="text-gray-500 category-link"><small>Medicinal</small></a>
+                            <h3 class="text-base truncate"><a href="#!">December Flower</a></h3>
+                            <div class="flex justify-between items-center">
+                                <div><span class="text-gray-900 font-semibold">$24</span></div>
+                                <div>
+                                    <button type="button" class="btn-add">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more product cards here with appropriate data-category -->
             </div>
         </div>
     </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const swiper = new Swiper('#swiper-1', {
-                slidesPerView: 2,
-                spaceBetween: 20,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                breakpoints: {
-                    480: {
-                        slidesPerView: 2
-                    },
-                    768: {
-                        slidesPerView: 3
-                    },
-                    1024: {
-                        slidesPerView: 6
+        const categoryBtns = document.querySelectorAll('.category-btn');
+        const products = document.querySelectorAll('.card-product');
+
+        categoryBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const category = btn.getAttribute('data-category');
+
+                products.forEach(product => {
+                    if (category === 'all' || product.dataset.category === category) {
+                        product.style.display = 'block';
+                    } else {
+                        product.style.display = 'none';
                     }
-                }
+                });
             });
         });
+
     </script>
 </body>
+
 </html>

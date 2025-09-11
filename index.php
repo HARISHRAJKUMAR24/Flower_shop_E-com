@@ -12,6 +12,8 @@ include 'libs/load.php'
     <link href="./assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/libs/swiper/swiper-bundle.min.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
 
     <!-- Libs CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,8 +45,6 @@ include 'libs/load.php'
     <?php load_template('shop_cart') ?>
     <!-- Shop Cart End -->
 
-    <!-- Modal -->
-    <?php load_template('shop_cart_product_shown') ?>
     <main>
         <!-- Hero -->
         <?php load_template('hero') ?>

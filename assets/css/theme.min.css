@@ -3851,12 +3851,179 @@ h6>a:hover {
     background-color: #16a34a; /* Tailwind green-600 */
 }
 
-
-.product-img {
-  width: 250px;       /* set your desired width */
-  height: 150px;      /* set your desired height */
-  object-fit: cover;  /* ensures image fills box neatly */
-  border-radius: 12px; /* rounded corners */
-  display: block;     /* removes inline spacing issues */
-  margin: 0 auto;     /* optional: centers image */
+.product-grid {
+  padding-left: 16px;
+  padding-right: 16px;
 }
+
+@media (min-width: 1024px) {
+  .product-grid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .product-grid {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.category-btn {
+  padding: 6px 14px;
+  border-radius: 9999px;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #ddd;
+  
+}
+
+.category-btn.active,
+.category-btn:hover {
+  background: #22c55e;
+  color: #fff;
+  border-color: #22c55e;
+}
+
+
+/* Product image responsive */
+.product-img {
+  width: 100%;
+  max-width: 250px;
+  min-height: 180px;   /* add some extra height */
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Position wrapper inside product card */
+.badge-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+/* Glassy badge */
+.badge-glass {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 9999px;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Green glowing dot */
+.dot-glow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 10px 3px rgba(34, 197, 94, 0.9);
+  animation: pulseGlow 1.5s infinite;
+}
+
+/* Glow pulse animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px 3px rgba(34, 197, 94, 0.9);
+  }
+  50% {
+    box-shadow: 0 0 16px 6px rgba(34, 197, 94, 0.6);
+  }
+}
+
+/* 📱 Mobile adjustments */
+@media (max-width: 640px) {
+  .product-img {
+    max-width: 100%;   /* use full width in small screen */
+    aspect-ratio: 4 / 3;
+  }
+
+  .badge-glass {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .dot-glow {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+/* 💻 Large screens */
+@media (min-width: 1024px) {
+  .product-img {
+    max-width: 280px;
+    aspect-ratio: 5 / 3;
+  }
+
+  .badge-glass {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+}
+
+
+/* Badge stack container */
+.badge-stack {
+  position: absolute;
+  top: 12px;    /* top padding */
+  left: 12px;   /* left padding */
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 6px;     /* equal spacing between badges */
+  z-index: 10;  /* on top of image */
+}
+
+/* Glassy badge base */
+.badge-glass {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 9999px;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Dot glow */
+.dot-glow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 3px currentColor;
+  animation: pulseGlow 1.5s infinite;
+}
+
+/* Pulse animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px 3px currentColor;
+  }
+  50% {
+    box-shadow: 0 0 16px 6px currentColor;
+  }
+}
+
+/* Badge colors */
+.badge-green .dot-glow { background: #22c55e; color: #22c55e; }
+.badge-red .dot-glow { background: #ef4444; color: #ef4444; }
+.badge-amber .dot-glow { background: #fbbf24; color: #fbbf24; }
