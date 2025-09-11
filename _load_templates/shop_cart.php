@@ -27,7 +27,7 @@
                         <div class="flex items-center">
                             <div class="w-1/2 md:w-1/2 lg:w-3/5">
                                 <div class="flex">
-                                    <img src="./assets/images/products/product-img-1.jpg" alt="Ecommerce" class="w-16 h-16" />
+                                    <img src="../assets/images/cart/sunflowerseed.jpg" alt="Ecommerce" class="w-16 h-16" />
                                     <div class="ml-3">
                                         <!-- title -->
                                         <a href="#!" class="text-inherit">
@@ -76,7 +76,7 @@
                         <div class="flex items-center">
                             <div class="w-1/2 md:w-1/2 lg:w-3/5">
                                 <div class="flex">
-                                    <img src="./assets/images/products/product-img-2.jpg" alt="Ecommerce" class="w-16 h-16" />
+                                    <img src="../assets/images/cart/cart-2.jpeg" alt="Ecommerce" class="w-16 h-16" />
                                     <div class="ml-3">
                                         <a href="#!" class="text-inherit">
                                             <h6>NutriChoice Digestive</h6>
@@ -126,7 +126,7 @@
                         <div class="flex items-center">
                             <div class="w-1/2 md:w-1/2 lg:w-3/5">
                                 <div class="flex">
-                                    <img src="./assets/images/products/product-img-3.jpg" alt="Ecommerce" class="w-16 h-16" />
+                                    <img src="../assets/images/cart/cart-3.jpeg" alt="Ecommerce" class="w-16 h-16" />
                                     <div class="ml-3">
                                         <!-- title -->
                                         <a href="#!" class="text-inherit">
@@ -177,7 +177,7 @@
                         <div class="flex items-center">
                             <div class="w-1/2 md:w-1/2 lg:w-3/5">
                                 <div class="flex">
-                                    <img src="./assets/images/products/product-img-4.jpg" alt="Ecommerce" class="w-16 h-16" />
+                                    <img src="../assets/images/cart/cart-4.jpeg" alt="Ecommerce" class="w-16 h-16" />
                                     <div class="ml-3">
                                         <!-- title -->
                                         <!-- title -->
@@ -229,7 +229,7 @@
                         <div class="flex items-center">
                             <div class="w-1/2 md:w-1/2 lg:w-3/5">
                                 <div class="flex">
-                                    <img src="./assets/images/products/product-img-5.jpg" alt="Ecommerce" class="w-16 h-16" />
+                                    <img src="../assets/images/cart/cart-5.jpg" alt="Ecommerce" class="w-16 h-16" />
                                     <div class="ml-3">
                                         <!-- title -->
                                         <a href="#!" class="text-inherit">
