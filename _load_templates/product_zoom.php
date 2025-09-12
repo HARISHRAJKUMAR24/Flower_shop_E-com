@@ -83,9 +83,9 @@
                             <div class="lg:pl-10 mt-6 md:mt-0">
                                 <div class="flex flex-col gap-4">
                                     <!-- content -->
-                                    <a href="#!" class="block text-green-600">Bakery Biscuits</a>
+                                    <a href="#!" class="block text-green-600">Seed Product</a>
                                     <!-- heading -->
-                                    <h1>Napolitanke Ljesnjak</h1>
+                                    <h1>Product Zoom</h1>
                                     <div class="flex flex-col gap-2">
                                         <div class="flex items-center">
                                             <!-- rating -->
