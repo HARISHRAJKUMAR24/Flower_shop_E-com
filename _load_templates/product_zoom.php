@@ -25,27 +25,27 @@
                         <div class="md:w-1/2">
                             <!-- img slide -->
                             <div class="product productModal" id="productModal">
-                                <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/product-single-img-1.jpg)">
+                                <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/cart-5.jpg)">
                                     <!-- img -->
                                     <!-- img -->
-                                    <img src="./assets/images/products/product-single-img-1.jpg" alt="" />
+                                    <img src="./assets/images/products/cart-5.jpg" alt="" class="prd_zoom_img" />
                                 </div>
                                 <div>
-                                    <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/product-single-img-2.jpg)">
+                                    <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/cart-5.jpg)">
                                         <!-- img -->
-                                        <img src="./assets/images/products/product-single-img-2.jpg" alt="" />
+                                        <img src="./assets/images/products/cart-5.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/product-single-img-3.jpg)">
+                                    <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/cart-5.jpg)">
                                         <!-- img -->
-                                        <img src="./assets/images/products/product-single-img-3.jpg" alt="" />
+                                        <img src="./assets/images/products/cart-5.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/product-single-img-4.jpg)">
+                                    <div class="zoom" onmousemove="zoom(event)" style="background-image: url(./assets/images/products/cart-5.jpg)">
                                         <!-- img -->
-                                        <img src="./assets/images/products/product-single-img-4.jpg" alt="" />
+                                        <img src="./assets/images/products/cart-5.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -55,25 +55,25 @@
                                     <div class="w-1/4">
                                         <div class="thumbnails-img">
                                             <!-- img -->
-                                            <img src="./assets/images/products/product-single-img-1.jpg" alt="" />
+                                            <img src="./assets/images/products/cart-5.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="w-1/4">
                                         <div class="thumbnails-img">
                                             <!-- img -->
-                                            <img src="./assets/images/products/product-single-img-2.jpg" alt="" />
+                                            <img src="./assets/images/products/cart-5.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="w-1/4">
                                         <div class="thumbnails-img">
                                             <!-- img -->
-                                            <img src="./assets/images/products/product-single-img-3.jpg" alt="" />
+                                            <img src="./assets/images/products/cart-5.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="w-1/4">
                                         <div class="thumbnails-img">
                                             <!-- img -->
-                                            <img src="./assets/images/products/product-single-img-4.jpg" alt="" />
+                                            <img src="./assets/images/products/cart-5.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>

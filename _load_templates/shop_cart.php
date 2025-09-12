@@ -31,7 +31,7 @@
                                     <div class="ml-3">
                                         <!-- title -->
                                         <a href="#!" class="text-inherit">
-                                            <h6>Haldiram's Sev Bhujia</h6>
+                                            <h6>Cart Product - 1</h6>
                                         </a>
                                         <span><small class="text-gray-500">.98 / lb</small></span>
                                         <!-- text -->
@@ -79,7 +79,7 @@
                                     <img src="../assets/images/cart/cart-2.jpeg" alt="Ecommerce" class="w-16 h-16" />
                                     <div class="ml-3">
                                         <a href="#!" class="text-inherit">
-                                            <h6>NutriChoice Digestive</h6>
+                                            <h6>Cart Product - 2</h6>
                                         </a>
                                         <span><small class="text-gray-500">250g</small></span>
                                         <!-- text -->
@@ -130,7 +130,7 @@
                                     <div class="ml-3">
                                         <!-- title -->
                                         <a href="#!" class="text-inherit">
-                                            <h6>Cadbury 5 Star Chocolate</h6>
+                                            <h6>Cart Product - 3</h6>
                                         </a>
                                         <span><small class="text-gray-500">1 kg</small></span>
                                         <!-- text -->
@@ -182,7 +182,7 @@
                                         <!-- title -->
                                         <!-- title -->
                                         <a href="#!" class="text-inherit">
-                                            <h6>Onion Flavour Potato</h6>
+                                            <h6>Cart Product - 4</h6>
                                         </a>
                                         <span><small class="text-gray-500">250g</small></span>
                                         <!-- text -->
@@ -233,7 +233,7 @@
                                     <div class="ml-3">
                                         <!-- title -->
                                         <a href="#!" class="text-inherit">
-                                            <h6>Salted Instant Popcorn</h6>
+                                            <h6>Cart Product - 5</h6>
                                         </a>
                                         <span><small class="text-gray-500">100g</small></span>
                                         <!-- text -->
