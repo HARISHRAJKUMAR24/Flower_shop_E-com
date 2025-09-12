@@ -23,7 +23,7 @@ include 'libs/load.php'
     <link rel="stylesheet" href="./assets/libs/simplebar/dist/simplebar.min.css" />
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="./assets/css/theme.min.css">
+    <link rel="stylesheet" href="/assets/css/theme.min.css">
 
 
     <title>Free Freshcart Tailwind Ecommerce HTML Template</title>
